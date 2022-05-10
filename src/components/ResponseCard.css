@@ -1,0 +1,25 @@
+.ResponseCard {
+    position: relative;
+    padding: 1px 15px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ResponseCard-title {
+    color: #219ebc;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.ResponseCard-close {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 15px;
+    font-size: 1.5rem;
+}
+

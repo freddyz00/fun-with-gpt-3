@@ -1,0 +1,62 @@
+.TextInput {
+    flex: 0.75;
+    padding: 20px;
+    border-right: 1px solid lightgray;
+}
+
+.TextInput-heading {
+    margin-top: 0;
+    font-size: 2rem;
+    color: #219ebc;
+}
+
+.TextInput-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.TextInput-textarea {
+    width: 100%;
+    margin-top: 5px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem;
+    outline-width: 0;
+    border: 2px solid gray;
+    box-sizing: border-box;
+}
+
+.TextInput-textarea:focus {
+    border: 2px solid #219ebc;
+
+}
+
+
+
+.TextInput-button {
+    width: 7rem;
+    height: 3rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #219ebc;
+    border: none;
+    cursor: pointer;
+    align-self: flex-end;
+    transition: background-color 200ms;
+    border-radius: 0.3rem;
+    margin-top: 1rem;
+}
+
+.TextInput-button:hover {
+    background-color: #1e8aa5;
+}
+
+.TextInput-button--loading {
+    background-color: #b3b3b3;
+    cursor: default;
+}
+
+.TextInput-button--loading:hover {
+    background-color: #b3b3b3;
+}
