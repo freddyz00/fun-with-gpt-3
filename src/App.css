@@ -3,3 +3,9 @@
   min-height: 100vh;
   max-height: 100vh;
 }
+
+@media only screen and (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
+}
